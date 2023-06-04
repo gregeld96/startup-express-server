@@ -8,15 +8,15 @@
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
+    "password": "a05dd225f6bd27cb8d1b7994894be76d2c1ef686e4285dee",
+    "database": "wedding",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
+    "password": "a05dd225f6bd27cb8d1b7994894be76d2c1ef686e4285dee",
+    "database": "wedding",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
