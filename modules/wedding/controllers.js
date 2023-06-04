@@ -9,7 +9,10 @@ class WeddingController {
                 data: await WeddingService.getComments()
             })
         } catch (error) {
-            console.log(error)
+            res.status(500).json({
+                success: false,
+                message: JSON.stringify(error),
+            })
         }
     }
 
@@ -24,7 +27,10 @@ class WeddingController {
                 })
             })
         } catch (error) {
-            console.log(error)
+            res.status(500).json({
+                success: false,
+                message: JSON.stringify(error),
+            })
         }
     }
 }
