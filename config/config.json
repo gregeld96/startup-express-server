@@ -1,22 +1,22 @@
 {
   "development": {
-    "username": "geni_admin",
-    "password": "admin",
-    "database": "geni_server",
+    "username": "root",
+    "password": "a05dd225f6bd27cb8d1b7994894be76d2c1ef686e4285dee",
+    "database": "wedding",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "test": {
-    "username": "geni_admin",
-    "password": "admin",
-    "database": "geni_server",
+    "username": "root",
+    "password": null,
+    "database": "database_test",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "production": {
-    "username": "geni_admin",
-    "password": "admin",
-    "database": "geni_server",
+    "username": "root",
+    "password": null,
+    "database": "database_production",
     "host": "127.0.0.1",
     "dialect": "mysql"
   }
