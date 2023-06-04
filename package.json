@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "sequelize": "^6.32.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "startup-express-server",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregeld96/startup-express-server.git"
+  },
+  "author": "Gregorius Eldwin Pradipta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregeld96/startup-express-server/issues"
+  },
+  "homepage": "https://github.com/gregeld96/startup-express-server#readme"
+}
